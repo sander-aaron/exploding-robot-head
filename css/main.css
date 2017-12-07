@@ -22,14 +22,40 @@ body {
 }
 
 .robot-body {
+  position: absolute;
+  left: 50%;
+  top: 6%;
+  transform: translateX(-50%);
+  display: block;
   width: 320px;
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  position: absolute;
+  top: 0;
+}
+
+.robot-head-right {
+  left: 50%;
+}
+
+.robot-head-right:hover {
+  right: 25%;
+}
+
+.robot-head-left {
+  right: 50%;
+}
+.robot-head-left:hover {
+  left: 25%;
 }
