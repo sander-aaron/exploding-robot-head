@@ -24,7 +24,7 @@ body {
 .robot-body {
   position: absolute;
   left: 50%;
-  top: 6%;
+  top: 9%;
   transform: translateX(-50%);
   display: block;
   width: 320px;
@@ -33,7 +33,7 @@ body {
 .robot-brain {
   width: 46px;
   position: absolute;
-  top: 6%;
+  top: 9%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -42,7 +42,7 @@ body {
 .robot-head-left {
   width: 125px;
   position: absolute;
-  top: 0;
+  top: 3%;
 }
 
 .robot-head-right {
