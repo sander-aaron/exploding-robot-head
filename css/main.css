@@ -47,9 +47,9 @@ body {
   top: 7%;
 }
 
-.robot-head-right,
+.robot-head-right:hover,
 .robot-head-left:hover {
-
+  left: 5%;
 }
 
 .robot-head-right {
