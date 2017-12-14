@@ -40,6 +40,10 @@ body {
   transform: translateX(-50%);
 }
 
+.robot:hover .robot-brain {
+  top: 15%;
+}
+
 .robot-head-right,
 .robot-head-left {
   width: 125px;
