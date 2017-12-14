@@ -47,13 +47,18 @@ body {
   top: 7%;
 }
 
+.robot-head-right,
+.robot-head-left:hover {
+
+}
+
 .robot-head-right {
   left: 50%;
 }
 
 .robot-head-right:hover {
+  left: 55%;
   top: 5%;
-  right: 25%;
 }
 
 .robot-head-left {
